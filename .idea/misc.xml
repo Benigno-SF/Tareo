@@ -3,7 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/jranilla/AndroidStudioProjects/Tareo/app/src/main/res/layout/activity_login.xml" value="0.33" />
+        <entry key="..\:/Users/jranilla/AndroidStudioProjects/Tareo/app/src/main/res/drawable/buttonbackground.xml" value="0.2745" />
+        <entry key="..\:/Users/jranilla/AndroidStudioProjects/Tareo/app/src/main/res/drawable/edittext_background.xml" value="0.2735" />
+        <entry key="..\:/Users/jranilla/AndroidStudioProjects/Tareo/app/src/main/res/drawable/ic_baseline_eye_24.xml" value="0.2745" />
+        <entry key="..\:/Users/jranilla/AndroidStudioProjects/Tareo/app/src/main/res/drawable/login_background.xml" value="0.2745" />
+        <entry key="..\:/Users/jranilla/AndroidStudioProjects/Tareo/app/src/main/res/layout/activity_home.xml" value="0.3427734375" />
+        <entry key="..\:/Users/jranilla/AndroidStudioProjects/Tareo/app/src/main/res/layout/activity_login.xml" value="0.5" />
         <entry key="..\:/Users/jranilla/AndroidStudioProjects/Tareo/app/src/main/res/layout/activity_main.xml" value="0.23958333333333334" />
       </map>
     </option>
