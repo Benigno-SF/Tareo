@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetalleActivity"
+    android:background="@drawable/fondo">
+
+    <ImageView
+        android:id="@+id/imagelogo"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/tabmenulab"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="132dp"
+        android:src="@drawable/ic_baseline_list_tareo_24" />
+
+    <TextView
+        android:id="@+id/txtopc"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/imagelogo"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:text="TAREOS"
+        android:textColor="@color/white"
+        android:textSize="25dp" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_below="@id/txtopc"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="0dp">
+
+        <LinearLayout
+            android:id="@+id/addtareo"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/login_background"
+            android:backgroundTint="@color/white"
+            android:elevation="16dp"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageButton
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:src="@drawable/ic_list_plus_home_foreground" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lmarcacion"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/login_background"
+            android:backgroundTint="@color/white"
+            android:elevation="26dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/addtareo">
+
+
+            <ImageButton
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:src="@drawable/ic_arrow_next_home_foreground" />
+
+            <ImageButton
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:src="@drawable/ic_baseline_assignment_24" />
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/responsabletxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="RESPONSABLE"
+                    android:textColor="@color/primaryColor"
+                    android:textSize="12dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/responsableItem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="10dp"
+                    android:text="USUARIO TI"
+                    android:textColor="@color/gray_force"
+                    android:textSize="12dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/sucursaltxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="SUCURSAL"
+                    android:textColor="@color/primaryColor"
+                    android:textSize="12dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/sucursalItem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="10dp"
+                    android:text="ICA"
+                    android:textColor="@color/gray_force"
+                    android:textSize="12dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/documentotxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="DOCUMENTO"
+                    android:textColor="@color/primaryColor"
+                    android:textSize="12dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/documentoItem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="10dp"
+                    android:text="TAR 0000-000000"
+                    android:textColor="@color/gray_force"
+                    android:textSize="12dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/fechatxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="RESPONSABLE"
+                    android:textColor="@color/primaryColor"
+                    android:textSize="12dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/fechaItem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="10dp"
+                    android:text="USUARIO TI"
+                    android:textColor="@color/gray_force"
+                    android:textSize="12dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/ressuptxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="RESP. SUPERIOR"
+                    android:textColor="@color/primaryColor"
+                    android:textSize="12dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/ressupItem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="10dp"
+                    android:text="SANABRIA LEVANO, AURORA"
+                    android:textColor="@color/gray_force"
+                    android:textSize="10dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/planillatxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="PLANILLA"
+                    android:textColor="@color/primaryColor"
+                    android:textSize="12dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/planillaItem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="10dp"
+                    android:text="OBREROS REG. GENREAL DE CAMPO"
+                    android:textColor="@color/gray_force"
+                    android:textSize="12dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/emptytxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/primaryColor"
+                    android:textSize="12dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/emptyItem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="10dp"
+                    android:textColor="@color/gray_force"
+                    android:textSize="12dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/estadotxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ESTADO"
+                    android:textColor="@color/primaryColor"
+                    android:textSize="12dp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/estadoItem"
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/button_status_pendiente"
+                    android:paddingStart="10dp"
+                    android:text="PENDIENTE"
+                    android:textColor="@color/white"
+                    android:textSize="12dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <ImageButton
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:background="@color/white"
+                android:paddingLeft="30dp"
+                android:src="@drawable/ic_arrow_back_home_foreground" />
+        </LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="570dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="?attr/colorPrimary"
+        android:backgroundTint="@color/white"
+        android:elevation="46dp"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme">
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="150dp"
+            android:background="@color/white"
+            android:drawableTop="@drawable/ic_nav_list_24"
+            android:text="Listado de Tareos"
+            android:textColor="@color/primaryColor"
+            android:textSize="13dp" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="150dp"
+            android:background="@color/white"
+
+            android:drawableTop="@drawable/ic_nav_file_24"
+            android:text="Detalle"
+            android:textColor="@color/gray_force"
+            android:textSize="13dp" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabmenulab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true">
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Labores"/>
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Trab. por Labor"
+            android:background="@color/white"/>
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rend/Avance por labor"
+            android:background="@color/white"/>
+    </com.google.android.material.tabs.TabLayout>
+</RelativeLayout>

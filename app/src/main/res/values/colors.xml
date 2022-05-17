@@ -9,4 +9,9 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="gray">#d9d9d9</color>
+    <color name="gray_force">#808080</color>
+    <color name="pending">#ed9b16</color>
+    <color name="approved">#0fc151</color>
+    <color name="annulled">#5c5a5a</color>
+    <color name="rejected">#a90d21</color>
 </resources>
